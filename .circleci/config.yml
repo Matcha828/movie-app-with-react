@@ -119,7 +119,7 @@ jobs:
       - slack/notify:
           event: always
           # channel: ${SLACK_DEFAULT_CHANNEL}
-          channel: C052PKXC7BJ
+          # channel: C052PKXC7BJ
           # template: success_tagged_deploy_1
           template: ''
           custom: |
