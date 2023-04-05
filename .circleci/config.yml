@@ -128,7 +128,7 @@ jobs:
                   "type": "header",
                   "text": {
                     "type": "plain text",
-                    "text": "${CIRCLE_BRANCH} branch development to aws s3 and cloudfront is complete. 👍",
+                    "text": "${CIRCLE_BRANCH} branch development to aws s3 and cloudfront is complete.👍",
                     "emoji": true
                   }
                 },
