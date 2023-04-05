@@ -8,7 +8,7 @@ executors:
     working_directory: ~/repo
   slack-executor:
     docker:
-      - image: 'cimg/base: latest'
+      - image: cimg/base:stable
     resource_class: small
 aliases:
   - &show-current-branch-name
@@ -117,9 +117,10 @@ jobs:
     steps:
       - run: echo "Slack notification"
       - slack/notify:
-          event: 'always'
+          event: always
           channel: 'movie-app-circleci'
-          template: 'success_tagged_deploy_1'
+          # template: success_tagged_deploy_1
+          template: ''
           custom: |
             {
               "blocks": [
