@@ -16,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint \"src/**/*.js*\"",
+    "prettier:check": "prettier --check \"src/**/*.{js,jsx,json}\"",
+    "prettier:write": "prettier --write \"src/**/*.{js,jsx,json}\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.8.7"
   }
 }
