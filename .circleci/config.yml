@@ -117,9 +117,9 @@ jobs:
     steps:
       - run: echo "Slack notification"
       - slack/notify:
-          event: 'always'
+          event: always
           # channel: ${SLACK_DEFAULT_CHANNEL}
-          channel: 'movie-app-circleci'
+          channel: C052PKXC7BJ
           # template: success_tagged_deploy_1
           template: ''
           custom: |
