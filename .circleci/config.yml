@@ -46,7 +46,7 @@ aliases:
     run:
       name: Build Project
       command: |
-        npm install
+        npm install --force
         npm run build
         cd build
         zip ../build.zip -r * .[^.]*
