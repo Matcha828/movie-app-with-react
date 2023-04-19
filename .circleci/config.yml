@@ -28,7 +28,7 @@ aliases:
       name: Install dependencies
       command: |
         mkdir -p artifacts
-        npm install
+        npm install --legacy-peer-deps
   - &save-cache
     save_cache:
       paths:
