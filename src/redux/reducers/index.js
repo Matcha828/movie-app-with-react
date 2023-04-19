@@ -5,11 +5,11 @@ import { combineReducers } from 'redux';
 // import routesReducer from './routesReducer';
 
 const rootReducers = combineReducers({
-//   errors: errorReducer,
-//   movies: movieReducer,
-//   routes: routesReducer
-    errors: '',
-    movies: ''
+  //   errors: errorReducer,
+  //   movies: movieReducer,
+  //   routes: routesReducer
+  errors: '',
+  movies: ''
 });
 
 export default rootReducers;
